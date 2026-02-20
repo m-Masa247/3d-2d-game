@@ -60,9 +60,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Users\mntt0\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.2.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\mntt0\game_product\3d-2dgame\Library\PackageCache\com.unity.collab-proxy@2.11.3\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\mntt0\game_product\3d-2dgame\Library\PackageCache\com.unity.collab-proxy@2.11.3\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="C:\Users\mntt0\game_product\3d-2dgame\Library\PackageCache\com.unity.collab-proxy@2.11.3\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -430,10 +427,6 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.11.3\Lib\Editor\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.11.3\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -448,6 +441,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.11.3\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
